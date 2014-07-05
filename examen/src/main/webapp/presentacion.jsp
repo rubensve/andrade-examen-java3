@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Resultado de Calificaciones</h1>
-        ${resultados.getNombre().obtenerEvaluacion()}
+        ${resultados.obtenerEvaluacion()}
     </body>
 </html>
