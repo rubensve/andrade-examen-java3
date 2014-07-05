@@ -25,4 +25,7 @@ private float calificacion;
         this.calificacion = calificacion;
     }
 
+    public String obtenerEvaluacion(){
+        return nombre+ calificacion; 
+    }
 }
