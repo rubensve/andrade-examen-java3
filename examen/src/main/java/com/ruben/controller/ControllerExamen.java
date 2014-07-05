@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/servicio-calificacion")
+@RequestMapping("/servicios")
 
 public class ControllerExamen {
     
-@RequestMapping(value ="/calificar", method = RequestMethod.GET, headers =("Accept=Application/json"))
+@RequestMapping(value ="/servicio-calificaciones", method = RequestMethod.GET, headers =("Accept=Application/json"))
 @ResponseBody ArrayList<Evaluacion> leerEvaluacion(){
  return GeneradorCalificaciones.generarCalificaciones();
 }
